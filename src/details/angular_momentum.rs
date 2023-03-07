@@ -1,7 +1,9 @@
 /// Angular momentum
 
+use strum_macros::Display;
+
 #[repr(i8)]
-#[derive(Debug, PartialEq, Eq, PartialOrd, Ord)]
+#[derive(Debug, Display, PartialEq, Eq, PartialOrd, Ord, Copy, Clone)]
 pub enum AngularMomentum {
     S = 0,
     P = 1,

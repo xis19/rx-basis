@@ -6,6 +6,7 @@ edition = "2021"
 
 [dependencies]
 approx = "0.5.1"
+strum_macros = "0.24.3"
 
 [features]
 gaussian = []
